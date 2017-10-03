@@ -3,13 +3,40 @@
   "version": "0.0.1",
   "description": "",
   "scripts": {
+    "ng": "ng",
+    "start": "ng serve",
+    "build": "ng build",
+    "lint": "ng lint",
     "test": "embark test"
   },
   "author": "",
   "license": "ISC",
   "homepage": "",
+  "dependencies": {
+    "@angular/animations": "^4.4.4",
+    "@angular/common": "^4.4.4",
+    "@angular/compiler": "^4.4.4",
+    "@angular/core": "^4.4.4",
+    "@angular/forms": "^4.4.4",
+    "@angular/http": "^4.4.4",
+    "@angular/platform-browser": "^4.4.4",
+    "@angular/platform-browser-dynamic": "^4.4.4",
+    "@angular/router": "^4.4.4",
+    "core-js": "^2.5.1",
+    "rxjs": "^5.4.3",
+    "zone.js": "^0.8.18"
+  },
   "devDependencies": {
+    "@angular/cli": "1.4.4",
+    "@angular/compiler-cli": "^4.4.4",
+    "@angular/language-service": "^4.4.4",
+    "@types/node": "~6.0.60",
+    "codelyzer": "~3.2.0",
     "embark": "^2.5.2",
-    "mocha": "^2.2.5"
+    "mocha": "^2.2.5",
+    "ts-node": "~3.2.0",
+    "tslint": "~5.7.0",
+    "typescript": "~2.5.3",
+    "webpack": "^3.6.0"
   }
 }
