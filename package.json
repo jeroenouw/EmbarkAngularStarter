@@ -6,7 +6,11 @@
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
+    "prod": "ng prod --prod",
     "lint": "ng lint",
+    "start:both": "ng serve && embark run",
+    "block": "embark blockchain",
+    "block:test": "embark simulator",
     "test": "embark test"
   },
   "author": "",
